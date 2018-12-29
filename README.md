@@ -4,6 +4,10 @@ A take on @vzhz's wonderful [Friendly Terminal](https://github.com/vzhz/friendly
 
 > Eddie is the name of the shipboard computer on the starship Heart of Gold. Like every other system on the spaceship, it has a Sirius Cybernetics Corporation Genuine People Personality. Thus, Eddie is over-excitable, quite talkative, over-enthused and extremely ingratiating, or alternatively a coddling, school matron-type as a back-up personality. _([Wikipedia](https://en.wikipedia.org/wiki/List_of_minor_The_Hitchhiker%27s_Guide_to_the_Galaxy_characters#Eddie))_
 
+# Preview
+
+Of course I had to name my computer appropriately.
+
 ![Eddie's always ready to help.](https://github.com/vickylai/eddie-terminal/blob/master/eddie-terminal-preview.png)
 
 # Installation
