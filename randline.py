@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import random
 import sys
 import datetime
@@ -10,12 +12,6 @@ def timeOfDay(time):
     else:
         return 'afternoon'
 
-def dayOrNight(time):
-    if time.hour <= 4 or time.hour >= 20:
-        return 'night'
-    else:
-        return 'day'
-
 def todayOrTonight(time):
     if time.hour <= 4 or time.hour >= 20:
         return 'tonight'
@@ -27,11 +23,10 @@ def dayOfWeek(time):
 
 def main():
     lines = open(sys.argv[1]).readlines()
-    name = sys.argv[2] if len(sys.argv) > 2 else 'stranger'
+    name = sys.argv[2] if len(sys.argv) > 2 else 'guys'
     now = datetime.datetime.now()
     print(lines[random.randrange(len(lines))].strip() % {
         'timeOfDay': timeOfDay(now),
-        'dayOrNight': dayOrNight(now),
         'todayOrTonight': todayOrTonight(now),
         'dayOfWeek': dayOfWeek(now),
         'name': name
