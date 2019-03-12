@@ -8,7 +8,7 @@ A take on @vzhz's wonderful [Friendly Terminal](https://github.com/vzhz/friendly
 
 Of course I had to name my computer appropriately.
 
-![Eddie's always ready to help.](https://github.com/vickylai/eddie-terminal/blob/master/eddie-terminal-preview.png)
+![Eddie's always ready to help.](https://github.com/victoriadotdev/eddie-terminal/blob/master/eddie-terminal-preview.png)
 
 # Installation
 
@@ -19,7 +19,7 @@ Concise instructions below. View [original instructions at the parent repo.](htt
 You may choose to place these files in your home folder, or any other. Navigate to the desired parent location and run:
 
 ```
-git clone https://github.com/vickylai/eddie-terminal.git
+git clone https://github.com/victoriadotdev/eddie-terminal.git
 ```
 
 Make note of the file paths for `randline.py` and `greetings.txt`.
@@ -49,4 +49,4 @@ We welcome your contributions in pretty much any form.
 **Want to make your own modifications and share what you've done?** Fork & get started on a pull request. ([This repo](https://github.com/firstcontributions/first-contributions) has a step-by-step guide to for using Github as a first-time contributor). 
 
 ## License
-Eddie Terminal maintains [the MIT license](https://github.com/vickylai/eddie-terminal/blob/master/LICENSE.txt).
+Eddie Terminal maintains [the MIT license](https://github.com/victoriadotdev/eddie-terminal/blob/master/LICENSE.txt).
