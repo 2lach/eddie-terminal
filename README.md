@@ -19,7 +19,7 @@ Concise instructions below. View [original instructions at the parent repo.](htt
 You may choose to place these files in your home folder, or any other. Navigate to the desired parent location and run:
 
 ```
-git clone https://github.com/victoriadrake/eddie-terminal.git
+git clone https://github.com/victoriadrake/eddie-terminal.git eddie
 ```
 
 Make note of the file paths for `randline.py` and `greetings.txt`.
@@ -30,7 +30,7 @@ This will run the python file when you open a new terminal. Add the following co
 
 ```
 # run friendly terminal greeting
-python3 /[PATH]/[TO]/[FILE]/eddie-terminal/randline.py /[PATH]/[TO]/[FILE]/eddie-terminal/greetings.txt [NAME]
+python3 /[PATH]/[TO]/[FILE]/eddie/randline.py /[PATH]/[TO]/[FILE]/eddie/greetings.txt [NAME]
 ```
 
 ## 3. Source .bashrc or open a new terminal
