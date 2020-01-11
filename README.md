@@ -65,6 +65,3 @@ We welcome your contributions in pretty much any form.
 
 Eddie Terminal maintains [the MIT license](https://github.com/victoriadrake/eddie-terminal/blob/master/LICENSE.txt).
 
-```
-
-```
