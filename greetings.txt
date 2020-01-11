@@ -4,3 +4,5 @@ Why, hello there, %(name)s! All I want to do is make your %(timeOfDay)s nicer an
 Hi there!
 Please call me Eddie if it will help you to relax.
 Hi there %(name)s, and happy %(dayOfWeek)s! It's really great to be back with you again.
+Here’s an interesting little notion. Did you realize %(name), that most people’s lives are governed by telephone numbers?
+About the most massively useful thing a Hitchhiker can have is a Towel.
