@@ -4,5 +4,8 @@ Why, hello there, %(name)s! All I want to do is make your %(timeOfDay)s nicer an
 Hi there!
 Please call me Eddie if it will help you to relax.
 Hi there %(name)s, and happy %(dayOfWeek)s! It's really great to be back with you again.
-Here’s an interesting little notion. Did you realize %(name), that most people’s lives are governed by telephone numbers?
+Here’s an interesting little notion %(name)s. Did you realize that most people’s lives are governed by telephone numbers?
 About the most massively useful thing a Hitchhiker can have is a Towel.
+In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.
+Forty-two, said Deep Thought, with infinite majesty and calm.
+Vell, %(name)s's just zis guy, you know?
