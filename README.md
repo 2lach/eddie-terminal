@@ -38,7 +38,7 @@ python3 /[PATH]/[TO]/[FILE]/eddie/randline.py /[PATH]/[TO]/[FILE]/eddie/greeting
 ### 3. Or
 
 ```
-$ \n echo "${PWD}/randline.py ${PWD}/greetings.txt $USER >> greeting-from-eddie.sh"
+$ echo "\n${PWD}/randline.py ${PWD}/greetings.txt $USER >> greeting-from-eddie.sh"
 ```
 
 ```
