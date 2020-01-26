@@ -5,6 +5,13 @@ import sys
 import datetime
 
 
+def awakeOrAsleep(time):
+    if time.hour > 9 and time.hour <= 14:
+        return 1
+    else:
+        return 2
+
+
 def timeOfDay(time):
     if time.hour <= 2 or time.hour >= 18:
         return 'evening'
@@ -26,15 +33,20 @@ def dayOfWeek(time):
 
 
 def main():
-    lines = open(sys.argv[1]).readlines()
-    name = sys.argv[2] if len(sys.argv) > 2 else 'guys'
     now = datetime.datetime.now()
-    print(lines[random.randrange(len(lines))].strip() % {
-        'timeOfDay': timeOfDay(now),
-        'todayOrTonight': todayOrTonight(now),
-        'dayOfWeek': dayOfWeek(now),
-        'name': name
-    })
+    eddieAwakeOrSleeping = awakeOrAsleep(now)
+
+    if eddieAwakeOrSleeping == 1:
+        return
+    else:
+        lines = open(sys.argv[1]).readlines()
+        name = sys.argv[2] if len(sys.argv) > 2 else 'guys'
+        print(lines[random.randrange(len(lines))].strip() % {
+            'timeOfDay': timeOfDay(now),
+            'todayOrTonight': todayOrTonight(now),
+            'dayOfWeek': dayOfWeek(now),
+            'name': name
+        })
 
 
 if __name__ == "__main__":
