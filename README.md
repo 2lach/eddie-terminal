@@ -11,13 +11,17 @@ That led me here where I found this repo and forked it from the lovely @victoria
 
 ## Preview
 
-![Eddie's message](https://github.com/2lach/eddie-terminal/blob/master/eddie-terminal-preview.png)
+<!-- markdownlint-disable -->
+<div style="text-align:left">
+<iframe height="400" width="500" src="https://i.gyazo.com/f466db88a013b529c9cb6b4cf4e26a88.mp4"></iframe>
+</div>
+<!-- markdownlint-enable -->
 
 ## Installation
 
 ## 1. Clone this repo into your directory of choice
 
-You may choose to place these files in your home folder, or any other. Navigate to the desired parent location and run:
+You may choose to place these files in your home folder, or any other. Navigate to the desired parent location and run
 
 ```git
 git clone https://github.com/2lach/eddie-terminal.git eddie
