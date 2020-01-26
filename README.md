@@ -34,14 +34,18 @@ This will run the python file when you open a new terminal. Add the following co
 python3 /[PATH]/[TO]/[FILE]/eddie/randline.py /[PATH]/[TO]/[FILE]/eddie/greetings.txt [NAME]
 ```
 
+```bash
+newLine="\n"
+description="# Friendly terminal greeting with messages from The Hitchhiker's Guide"
+command="source ${PWD}/greeting-from-eddie.sh"
+
+echo $newLine $description $newLine $command >> ~/.bashrc
+```
+
 ### 3. Or while in this repo
 
 ```bash
 echo "\n${PWD}/randline.py ${PWD}/greetings.txt $USER" >> ./greeting-from-eddie.sh
-```
-
-```Sh
-echo "\n# Friendly terminal greeting with messages from The Hitchhiker's Guide \nsource ${PWD}/greeting-from-eddie.sh" >> ~/.bashrc
 ```
 
 ## 4. Source .bashrc or open a new terminal
