@@ -1,0 +1,12 @@
+bin
+develop-eggs
+dist
+downloads
+eggs
+parts
+src/*.egg-info
+lib
+lib64
+.pytest_cache
+.vscode/launch.json
+greeting-from-eddie.sh
