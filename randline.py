@@ -3,10 +3,11 @@
 import random
 import sys
 import datetime
+import shutil
 
 
 def awakeOrAsleep(time):
-    if time.hour > 9 and time.hour <= 14:
+    if time.hour > 9 and time.hour <= 18:
         return 1
     else:
         return 2
@@ -39,14 +40,16 @@ def main():
     if eddieAwakeOrSleeping == 1:
         return
     else:
+        columns = shutil.get_terminal_size().columns
         lines = open(sys.argv[1]).readlines()
         name = sys.argv[2] if len(sys.argv) > 2 else 'guys'
-        print(lines[random.randrange(len(lines))].strip() % {
+        quote = lines[random.randrange(len(lines))].strip() % {
             'timeOfDay': timeOfDay(now),
             'todayOrTonight': todayOrTonight(now),
             'dayOfWeek': dayOfWeek(now),
             'name': name
-        })
+        }
+        print(quote.center(columns))
 
 
 if __name__ == "__main__":
