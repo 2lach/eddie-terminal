@@ -1,3 +1,47 @@
+commit 90417e7fa4226f3c4f1e9712916b95c40b4a3e69
+Author: Stefan Lachmann <stefanlachmann@hotmail.com>
+Date:   8 minutes ago
+
+    Added changelog file (1)
+    Updated randline.py (2)
+    
+    summary
+    1) - the changelog file is just a simple cat of git log being triggered by
+    post-push hook essentially "cat git log > changelog.md"
+    
+    2) - a small new feature, it calculates terminal width and centers
+       eddie's output based on it.
+
+commit bae2f9f341835a229fe1f734a1029249ec572eee
+Author: Stefan Lachmann <stefanlachmann@hotmail.com>
+Date:   8 minutes ago
+
+    Update added new test permissions
+
+commit 850f10cc58a4dcc8a88592e8620fdc7ab3983fa9
+Merge: c5507fb 8297666
+Author: Stefan Lachmann <stefanlachmann@hotmail.com>
+Date:   9 minutes ago
+
+    Merge branch 'dev' of https://github.com/2lach/eddie-terminal into dev
+
+commit c5507fb05c27414d3e50f67c6a218414e2eaeed2
+Author: Stefan Lachmann <stefanlachmann@hotmail.com>
+Date:   12 minutes ago
+
+    Updated
+    - License.txt to be more accurate
+    - Some minor fixes in the README file
+    - new preview image of the eddie
+
+commit 8297666959783a27f95428f5fe3179656d4af564
+Author: Stefan Lachmann <11457600+2lach@users.noreply.github.com>
+Date:   3 weeks ago
+
+    Added quote by Slartibartfast
+    
+    +1:
+
 commit 75e5d54b195b663e5ffd9b14e1041278923139b2
 Author: Stefan Lachmann <stefanlachmann@hotmail.com>
 Date:   3 weeks ago
