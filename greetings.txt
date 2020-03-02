@@ -1,15 +1,25 @@
-Hi there! This is Eddie, your shipboard computer, and I'm feeling just great %(todayOrTonight)s, %(name)s, and I know I'm just going to get a bundle of kicks out of any program you care to run through me.
 Hi there! I want you to know that whatever your problem, I am here to help you solve it.
 Why, hello there, %(name)s. All I want to do is make your %(timeOfDay)s nicer and nicer and nicer.
-Hi there!
-Please call me Eddie if it will help you to relax.
 Hi there %(name)s, and happy %(dayOfWeek)s! It's really great to be back with you again.
-Here’s an interesting little notion %(name)s. Did you realize that most people’s lives are governed by telephone numbers?
 A towel, it says, is about the most massively useful thing an interstellar hitchhiker can have.
 In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.
-Forty-two, said Deep Thought, with infinite majesty and calm.
 The Guide is definitive. Reality is frequently inaccurate.
-Don't panic
 I'd far rather be happy than right any day.
 Space is big. You just won't believe how vastly, hugely, mind-bogglingly big it is.
-I may not have gone where I intended to go, but I think I have ended up where I needed to be
+
+Tao 1: Be kind, towards yourself and towards others.
+Tao 2: Don't panic
+Tao 3: When in stress, breath and go back to the basics. 
+Tao 4: If a problem is to hard to solve you do not understand the problem
+
+Accept everything just the way it is - Miyamoto Musashi
+Most of the re-inventions of the wheel ended up square - ESR
+You will not be punished for your anger, you will be punished by your anger  – Buddha
+Silence the angry man with love – Buddha
+Silence the ill-natured man with kindness  – Buddha
+Silence the miser with generosity  – Buddha
+Silence the liar with truth – Buddha
+
+If you trust yourself, any choice you make will be correct. If you do not trust yourself, anything you do will be wrong - Kung fu
+%(name)s, most people in the world have been tricked into believing they're not important ― Hu Yuan Nabe
+A Kung Fu Master is a Practitioner of Martial Arts Who Keeps Practicing ― Kailin Gow
