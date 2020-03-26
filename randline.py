@@ -3,7 +3,6 @@
 import random
 import sys
 import datetime
-import shutil
 
 
 def awakeOrAsleep(time):
@@ -40,7 +39,6 @@ def main():
     if eddieAwakeOrSleeping == 1:
         return
     else:
-        columns = shutil.get_terminal_size().columns
         lines = open(sys.argv[1]).readlines()
         name = sys.argv[2] if len(sys.argv) > 2 else 'guys'
         quote = lines[random.randrange(len(lines))].strip() % {
@@ -49,7 +47,8 @@ def main():
             'dayOfWeek': dayOfWeek(now),
             'name': name
         }
-        print(quote.center(columns))
+        # print(quote | lolcat)
+        print(quote)
 
 
 if __name__ == "__main__":
