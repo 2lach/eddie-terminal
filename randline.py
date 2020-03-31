@@ -3,10 +3,11 @@
 import random
 import sys
 import datetime
+import subprocess
 
 
 def awakeOrAsleep(time):
-    if time.hour > 9 and time.hour <= 18:
+    if time.hour >= 9 and time.hour <= 18:
         return 1
     else:
         return 2
@@ -37,6 +38,7 @@ def main():
     eddieAwakeOrSleeping = awakeOrAsleep(now)
 
     if eddieAwakeOrSleeping == 1:
+        subprocess.call("./welcomeZ.sh", shell=True)
         return
     else:
         lines = open(sys.argv[1]).readlines()
@@ -47,7 +49,6 @@ def main():
             'dayOfWeek': dayOfWeek(now),
             'name': name
         }
-        # print(quote | lolcat)
         print(quote)
 
 
