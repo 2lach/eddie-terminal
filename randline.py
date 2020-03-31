@@ -3,7 +3,7 @@
 import random
 import sys
 import datetime
-import subprocess
+import os
 
 
 def awakeOrAsleep(time):
@@ -38,7 +38,7 @@ def main():
     eddieAwakeOrSleeping = awakeOrAsleep(now)
 
     if eddieAwakeOrSleeping == 1:
-        subprocess.call("./welcomeZ.sh", shell=True)
+        os.system('sh /Users/stefan.lachmann/Desktop/Code/Forks/eddie/welcome.sh')
         return
     else:
         lines = open(sys.argv[1]).readlines()

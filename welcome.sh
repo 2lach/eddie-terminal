@@ -1,3 +1,5 @@
+#!/bin/bash
+
 figlet -w $(tput cols) -c "Z" | lolcat
 
 COLUMNS=$(tput cols) 
