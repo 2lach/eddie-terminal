@@ -36,7 +36,7 @@ def dayOfWeek(time):
 def main():
     now = datetime.datetime.now()
     eddieAwakeOrSleeping = awakeOrAsleep(now)
-
+    columns = os.get_terminal_size().columns
     if eddieAwakeOrSleeping == 1:
         os.system('sh /Users/stefan.lachmann/Desktop/Code/Forks/eddie/welcome.sh')
         return
@@ -49,7 +49,8 @@ def main():
             'dayOfWeek': dayOfWeek(now),
             'name': name
         }
-        print(quote)
+        message = quote.center(columns)
+        print(message)
 
 
 if __name__ == "__main__":
