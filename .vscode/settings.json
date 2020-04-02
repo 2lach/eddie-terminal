@@ -5,5 +5,6 @@
   "python.testing.pytestArgs": ["."],
   "python.testing.unittestEnabled": false,
   "python.testing.nosetestsEnabled": false,
-  "python.testing.pytestEnabled": true
+  "python.testing.pytestEnabled": true,
+  "python.terminal.launchArgs": ["python3", "/Users/stefan.lachmann/Desktop/Code/Forks/eddie/randline.py",  "/Users/stefan.lachmann/Desktop/Code/Forks/eddie/greetings.txt", "Z"]
 }
