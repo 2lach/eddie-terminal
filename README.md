@@ -73,3 +73,10 @@ We welcome your contributions in pretty much any form.
 ## License
 
 Eddie Terminal maintains [the MIT license](https://github.com/2lach/eddie-terminal/blob/master/LICENSE.txt).
+
+
+<!--
+https://github.com/damofthemoon/zsh-quotify/blob/master/quotify.coding.zsh
+https://github.com/oldratlee/hacker-quotes/blob/master/hacker-quotes.plugin.zsh
+
+-->
