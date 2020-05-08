@@ -38,7 +38,7 @@ def main():
     eddieAwakeOrSleeping = awakeOrAsleep(now)
     columns = os.get_terminal_size().columns
     if eddieAwakeOrSleeping == 1:
-        os.system('sh /Users/stefan.lachmann/Desktop/Code/Forks/eddie/welcome.sh')
+        os.system('sh "$PWD/welcome.sh"')
         return
     else:
         lines = open(sys.argv[1]).readlines()
